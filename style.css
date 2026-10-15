@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+body > h1 {
+  color: rgb(186, 186, 255);
+    text-align: center;
+  font-size: 3rem;
+  background-color: black;
+}
+
+.winrate h1 {
+  background-color: transparent;
+  color: #16803c;
+  font-size: 2rem;
+}
+
+.score {
+  width: min(90%, 420px);
+  margin: 10px auto 30px;
+  padding: 20px;
+  border: 2px solid navy;
+  border-radius: 12px;
+  background-color: #f4f7ff;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.score h2 {
+  margin-bottom: 15px;
+  color: navy;
+  font-size: 2rem;
+}
+
+.score p {
+  display: inline-block;
+  min-width: 145px;
+  margin: 5px;
+  padding: 12px 10px;
+  border-radius: 8px;
+  background-color: white;
+  color: #222;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+#user-score {
+  border-left: 5px solid #16803c;
+}
+
+#computer-score {
+  border-left: 5px solid #c62828;
+}
+
+.choices {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+}
+
+.choice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choice img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+.choice img:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+  border: 5px solid #000;
+  border-radius: 400px; 
+  transition: border 0.1s ease;  
+  cursor: pointer; 
+}
+.winrate {
+    width: min(90%, 420px);
+    margin: 10px auto 30px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: #f4f7ff;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
